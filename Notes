@@ -1,1 +1,25 @@
+What is Python?
+Python was born from a desire to have a better way to do system administration.
+Because of it's flexibility and extensibility, it expanded to cover a wide range 
+of general purpose programming needs.
+
+Let's break down a basic definition of Python by three of its core characteristics. 
+Python is an interpreted, interactive, and object oriented programming language. 
+
+Python is interpreted, when Python runs or executes it uses an interpreter to transform 
+the code into statements line by line.
+
+The interpreter decides if the line that it is executing is valid Python code. 
+To be valid Python code the text needs to have the proper syntax and indentation.
+If the interpreter encounters text that it doesn't recognize as accurate it errors 
+and the execution stops or the file quits running. Think of the interpreter as a 
+tool used by your computer to understand the instructions that you were giving it.
+
+Python is interactive. Python provides an interactive shell or execution environment 
+to execute Python code. This makes Python excellent for learning. The shell also uses 
+the interpreter but in a different execution environment. Python is an Object Oriented 
+programming language. There are different types of programming languages. To name a 
+few, there are procedural, functional, and object oriented. Object oriented programming
+creates objects that perform actions, have properties, and encourage code reusability 
+as well as other features.
 

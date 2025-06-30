@@ -23,3 +23,22 @@ few, there are procedural, functional, and object oriented. Object oriented prog
 creates objects that perform actions, have properties, and encourage code reusability 
 as well as other features.
 
+What are Built-in Functions?
+In this section, we're going to discuss Built-In Python Functions. 
+In the previous chapter, you've already seen me use some of the built-in Python
+functions.
+For example: int(), print(), type(), str(), and bool().
+
+I do not define these functions, they already existed in the environment.
+Built-in functions are installed when you download Python, and when the file executes, 
+the interpreter is able to find the files for these functions and run them properly. 
+Built-in in functions are global, so you can use them anywhere. 
+One thing you want to try to avoid when creating functions is using the same 
+names as the built-in functions.
+
+There are usually many ways to define a function.
+For example: instead of overriding type, 
+we could try to create a function called category. 
+Built-in functions are similar to String methods. 
+There are more than you can probably remember, but if you have a good place 
+to look for them, you can reference and explore them when needed.

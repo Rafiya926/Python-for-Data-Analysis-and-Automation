@@ -68,3 +68,63 @@ Using the documentation, you can find out what value a function takes
 and what value you can expect in return. I would recommend bookmarking a 
 documentation page because it's helpful to quickly navigate to and read more 
 about Python functions. In the next video let's look over Common Built-In Functions.
+
+Most Common Built-in Functions?
+In main.py, I have entered some of the more common built-in Python functions.
+'print', you've seen before, but this may be your first time seeing the functions 
+round(), input(), max(), and min().
+
+Let's run the file and see how this plays out. The first statement was executed,
+and hello, world! was printed to the console.
+
+On line 3, we're using the round() function. The round() 
+function will try to round the number given as the first argument to the
+amount of decimal places indicated in the second argument.
+
+2.3456 will be rounded to 2 decimal places. There is no output from this 
+function that is printed to the console.
+
+On line 5, we have the input() built-in function. We've given it an argument 
+('Enter something, please.') as a string.
+
+Notice this string is printed to the console. The input() function asks for our 
+user input. [Author Typing] You can now see that the file is done running. 
+On line 11, we had a print statement ('This file is done running.'). 
+That means that Python executed every single line in the file, and now it has 
+ended. We now have a red arrow indicating a fresh prompt in the console.
+Max() and min(), like round(), did not have any output to print to the console. 
+Here, we've introduced how to use the input() function and shown that not every 
+built-in function has output that is printed to the console. This is the case when 
+running Python code from a file. For you to use the interactive shell, we will see 
+that there is output from running the round() function. [Author Typing] The number 
+is rounded to 2.35.
+The interactive console is different than running Python from a script or a file.
+
+Let's see what the max() built-in function does when given numbers 4 and 5. 
+The max() function returns the largest integer value given. Based on what the
+max() function does, you can probably guess what the min() function does. Let's 
+give it a few more arguments. [Author Typing] The min() function returns the
+minimum number. There is one more built-in function that I'd like to introduce
+now, that can be very useful. [Author Typing] It is the help() function. You can
+use the help() function in the interactive console to learn more about different 
+types of functions or keywords in Python. As you can see, there was text printed
+when we first entered the help() function. "If this is your first time using Python, 
+you should definitely check out the tutorial on the internet at 
+https://docs.python.org/3.8/tutorial/. Enter the name of any module,
+keyword, or topic to get help on writing Python programs and using 
+Python modules. To quit this help utility and return to the interpreter, 
+just type "quit"." Down at the bottom, you can see that the prompt changed and 
+we now see help with a greater than symbol. Let's type in one of our built-in functions
+to see if we can learn more about it. [Author Typing] After entering round(), 
+we have a description of how to use the round() built-in function.
+
+You can see that round() takes in a number and it also takes in, as the second 
+argument, the ndigits=None.
+
+"Round a number to a given precision in decimal digits." The help() utility 
+can be very useful when first learning Python to find out what certain keywords, 
+modules, or built-in functions are and how to use them.
+
+Now, back to the interactive interpreter. You can tell this by the red arrow 
+indicating a fresh prompt. Take some time to pause and review the help() function 
+because it'll come in handy for all other built-in functions.

@@ -42,3 +42,29 @@ we could try to create a function called category.
 Built-in functions are similar to String methods. 
 There are more than you can probably remember, but if you have a good place 
 to look for them, you can reference and explore them when needed.
+
+
+Whereto look for the Built-in Functions?
+We can see the description is short. This function returns a string version 
+of an object. The documentation does a good job of linking to other descriptions. 
+If we examine string more closely, we can find a longer definition on what the 
+string function does. In the documentation return means the value that is 
+returned once you execute the function. In previous lectures, I've been using 
+this interchangeably with the word result. It is the result of the function. 
+This is sometimes called the return value. Let's go back to the Built-In Functions page.
+
+It probably wouldn't be very useful to memorize every single one of these functions.
+However, when you navigate here, you can click on one, and view how to use it. 
+Let's take a look at one of the other functions and break down the definition of 
+it further.
+
+Let's try abs. Return the absolute value of a number.
+The argument, may be an integer or a floating point number.
+If the argument is a complex number, its magnitude is returned. 
+Here in the title you can see that you provide the function abs with (x). 
+(X) is represented by a number. You know this because in the description 
+it reads the argument may be an integer or a floating point number. 
+Using the documentation, you can find out what value a function takes 
+and what value you can expect in return. I would recommend bookmarking a 
+documentation page because it's helpful to quickly navigate to and read more 
+about Python functions. In the next video let's look over Common Built-In Functions.

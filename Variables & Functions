@@ -1,0 +1,52 @@
+Variables & FUnctions
+The introduction to Python course. Your Python journey will not be the same after 
+you learn about how to handle and use variables and functions. 
+What is a variable?
+Variables are placeholders for values. In one of the previous chapters, 
+we introduced data types. Basic data types are the representation of
+information. Now, when you have a data type that represents information like a 
+string holding a name, that value can be stored in a variable.
+
+Once you declare a variable, that value is stored in your computer's memory, 
+during the execution of that file. Once the execution of that file is over, 
+the variable is removed from memory.
+
+After you store a value in a variable, you can then reference that variable name 
+later in the script utilizing that value. In previous videos, we were entering 
+values into the interactive shell or main.py as a script, but those values were not 
+stored, so we couldn't use them later. With variables, we can take information
+represented as a data type and then store in a variable. So we can use it, 
+manipulate it, or evaluate later in our script. How to declare a variable. 
+Enter a variable name that follows the Python naming conventions, on that same line,
+use the equal symbol to assign a value to the variable. The variable name must be 
+entered on the left side of the equal symbol. What is a function? 
+A function has arguments. When a function is called or executed, it can change or
+evaluate the values given as arguments, before returning the new values to the 
+running script. In this example, we have a function named, add_one.
+
+It takes an one argument, "num" a new num, which is an integer. It then adds '1' to
+it and then returns the new value. [no audio] Why would you use a function? Functions 
+are useful for tasks that are repeated. In programming, there is an important concept 
+that goes by D.R.Y or DRY. It stands for do not, or don't repeat yourself.
+In programming to keep your code clean, you want to hold the code that performs actions
+in one place. You would do this so that when you make changes to that action,
+you don't have to change it in multiple places in the code or in a larger project, 
+you may be sifting through other files to find that same logic or code. How to 
+declare a function.
+
+Use the Python keyword, def, which stands for define or definition. You're using 
+this keyword because you are defining a function, and you're telling Python that 
+you're about to define a function. On the same line, name the function following 
+the Python naming rules. Declare any arguments that are needed for the function
+in parenthesis immediately following the name. Next, enter a colon after the
+parenthesIs. Indent the rest of the lines in the function. [no audio] Finally, 
+use the 'return' key word to send a result back to where the function was called
+from. Function and variable names have conventions defined by the Python PEP8 
+Standard. Function names should be lower case with words separated by underscores 
+as necessary to improve readability. One of the introductory parts of this course,
+we talked about Pythons purpose and how one of the key principles of Python, is that 
+code is read more than it is written. Variable names follow these same convention 
+as function names. [no audio] Some last notes on variables and functions. Variables
+store values, functions, store tasks, actions or code. Both can be referenced in a 
+file after declaration. Later in this chapter, we'll go deeper into variables and 
+functions.

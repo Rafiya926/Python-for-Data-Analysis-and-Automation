@@ -46,3 +46,30 @@ It's okay to find yourself using the print function a lot when you're just
 starting out in Python. Further on in this course we'll talk about other
 debugging techniques and how we can use applications and other programs to make 
 this process easier. 
+
+
+Python Keywords
+One of the important things The Python keywords allow Python developers to do is 
+build statements that can be read easily like English. 
+Python keywords are words in Python that have special meaning as operators, 
+data values, flow control keywords, in addition to many other uses.
+
+Here's a list of the Python keywords. As you can see some of these we have used 
+and talked about in this course already like: false; true; def, D-E-F; return; 
+except; and try. There are a few more Python keywords that I'd like to highlight 
+in this chapter. For example, global, or, and, and not. In later lectures,
+we'll explore flow control keywords like if, elif, while, break, and pass. 
+Although the Python keyword list is not incredibly long, it can sometimes be 
+reassuring to double check that you are using the keyword in the proper way, 
+or if you are spelling the keyword in the proper way. You may have noticed in the 
+repl that the Python keywords are highlighted in a different color. In this example 
+script, you can see that def, return, and the Python keyword "None" are highlighted 
+in blue. This helps indicate to you that this is a Python keyword. This is the same 
+Python code but opened in Python IDLE. You can see the keywords are highlighted but 
+in a different color. You should still pay attention to the highlighting of your code 
+editing program because it can give you hints as to if you are spelling a keyword 
+correctly. In the rest of this chapter, we'll be reviewing some of the more common 
+Python keywords and some new ones that you haven't heard about. If you need to review 
+any Python keywords, recall that you can use the help function in any Python 
+interactive console. In the help function, you can enter module names, built in 
+function names, or keywords. 

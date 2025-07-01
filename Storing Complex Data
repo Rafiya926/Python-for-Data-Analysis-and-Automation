@@ -1,0 +1,301 @@
+Advanced Data Types
+In this chapter, we are going to be introducing Python types that will change 
+the way that you handle data and program in Python. So far, we've learned about 
+Strings, Integers, Booleans, and Floats. In this chapter, we'll introduce Lists 
+and Dictionaries.
+
+A Dictionary is an associative array, where arbitrary keys are mapped to 
+values and a list better defined as a sequence, is an iterable which supports 
+efficient element access using integer indices. A lot of those words might not 
+mean a whole lot to you at the moment. However, we'll break these types down so 
+you can understand them and use them in your programming. To start a list uses 
+brackets, lists and dictionaries both hold data.
+
+Let's talk about first. List hold data separated by commas, they can hold 
+integers, strings, other lists, floats, booleans.
+
+Lists are a great way to hold collections of data.
+A Dictionary is defined by curly brackets. A Dictionary is different than a 
+list because a Dictionary is a mapping type, which means that keys are mapped 
+to values.
+
+Dictionaries are like addresses on a map.
+You can search for certain addresses and you might find a house there or a business 
+or you might find nothing. Furthermore, you might type any value that doesn't exist 
+and the map will have an answer.
+Dictionaries hold keys which are like addresses and values, which like the things 
+that are at those addresses. Dictionaries and lists are similar, but they are defined 
+by their differences. Therefore, in this chapter, we'll take a look at Dictionaries
+and Lists alongside each other and see how we can utilize them in Python programming.
+
+List
+In this video, we'll be taking a closer look at Lists, what they're used for, 
+and how you can use them in Python to store data. Lists are mutable. 
+That means that we can change the values and their order in the data type. 
+Furthermore, we can access values by the index in a list. Lists use zero-based 
+indexing, which means that the first value in a list is at position zero. 
+In the REPL, I'll show you how to use bracket notation to access the value of a
+list. Lists are also iterable, values can be accessed one at a time.
+
+This means you can walk through the values to see what's inside a list, or to
+manipulate the values in a loop.
+
+Lists are very flexible Python types. In this video, we'll look at how we can
+manipulate them and change the values to use them in all kinds of ways. 
+In this script, I've defined the variable 'basic_list' which has the values,
+'1,' an integer, '2,' another integer,
+and the string 'Sally.' You define Lists with brackets and then separate the values
+in the list with commas. Let's switch over to the interactive console to work with
+Lists a little bit more. We now have our list to find in the console.
+Previously, I said that Lists use zero based indexing. Which means the first value is 
+at the zero position, the second value is that position '1,' and the third value is at
+position '2,' and so on. Let's demonstrate this with our variable. In the last 
+statement, I used '0' to access the first value in the list. This is called bracket
+notation. I typed in the variable and then opened up a pair of brackets. 
+I then entered the location in the list of the value that I wanted.
+Let's get the second value. If we try to access a value that is
+beyond the length of the list, we'll get an error. The 'list index is out of range.' 
+Lists are immutable. That means we can index positions in the list, and then change 
+the value that is at that position. We are accessing the value at the 
+second position in basic list, and assigning it the value '3.' This is like assigning 
+or declaring a variable. Now the second position value has changed
+from '2' to '3.'
+
+We can remove values from the end of the list by using the 'pop' method, which 
+exists on the list type. 'Pop,' will select the last value in the 
+list and then return it as a function.
+We can use this function to remove the next value, or to actually pull the last 
+value off of the end of the list. In the interactive console, it returns the last 
+value.
+
+When we print a list, we now notice that we are missing the last value. 
+We have removed it with the 'pop' method. Let's clear the console.
+We still have our variable, 'basic_list' with two values '1' and '3.'
+
+We can use the 'append' method to add the value back onto the list. 
+The 'append' method adds the value to the end of the list. 'Sally,' is now back on 
+the last position in the list.
+
+
+
+Dictionary
+This lecture will be covering Dictionaries. Like lists, Dictionaries hold values, 
+except for dictionaries use key value pairs. This gives identity to the values and 
+ways to access them.
+
+Dictionaries are mutable. You also access dictionaries with bracket notation. 
+But instead of using predefined indexing, starting with zero like zero based 
+indexing, you use the key for the value. Keys in dictionaries can be strings, 
+numbers, floats, but they cannot be lists or other dictionaries. Values and 
+dictionaries can be strings, integers, floats, other lists, and other dictionaries.
+Back in the Repl, we've defined a variable dictionary and we've given the dictionary 
+two key value pairs. The first key value pair is "Tom" with a value of red and 
+"Susan" with the value of blue. This dictionary is for favorite colors.
+We're going to be using this dictionary in the interactive console to 
+demonstrate how dictionaries can be useful in Python. Just like in lists, 
+we can access the values and dictionary with bracket notation Instead of integers,
+we're going to use the keys for the values. Entering "Tom" as the key 
+gives us it's corresponding value red. We can change these values by assigning them 
+like we assign variables. For example, Tom changes his favorite color.
+He decides that it's now green. In a dictionary, we have now changed that value 
+for the key "Tom".
+
+We can add values to a dictionary by entering the key with bracket notation. 
+You can see that Karen's favorite value is light blue.
+That key value pair has been added to the end of the list but dictionaries 
+do not have a particular order. We cannot loop through dictionaries the same way 
+that we'll be able to loop through lists. We can use methods on dictionaries to 
+retrieve keys and values from a dictionary.
+
+Keys returns a dictionary keys object which is a list with the keys "Tom", "Susan", 
+and "Karen". We can do the same things with the values method.
+Green, blue and light blue are retrieved from the list. In this lecture we're 
+also going to introduce the LEN function. L-E-N. If you recall in the previous 
+exercise, I had to look up what this function does. It returns the amount of items 
+in a container.
+
+Dictionary and lists are containers. Let's get the length or the amount of values 
+that exist in our dictionary.
+
+We have three values in our dictionary. The length function also works with lists. 
+
+A common exception to come across when working with dictionaries is the key 
+error exception. This means that the value you are trying to access with the 
+key entered in between the brackets does not exist. But we've gotten a key error
+because the key anonymous is not in the dictionary. A better way to fetch values 
+if you're unsure if they are in the dictionary is to use the "get method". 
+The first argument to the "get method" is the key that you're hoping to find. 
+ The second argument is a default value that will be returned if that key does not
+exist in the dictionary. Since anonymous does not exist in the
+dictionary, the value blue is returned.
+
+We talked about modifying values in dictionaries, but what if you want to delete 
+the key value pair entirely?
+Let's redefine our variable dictionary and introduce a keyword d-e-l which is 
+short for delete. We simply used the keyword d-e-l and then 
+typed in the variable selecting the item in the variable that we wanted to 
+delete then execute the statement. When we re printed the statement, we saw that, 
+that key value pair was indeed deleted. Let's see what happens when we tried to 
+delete that key value pair again.
+We get another key error. Tom is not in the dictionary anymore.
+
+Another useful way to check if a value is in a dictionary is using the "in" keyword 
+that we talked about in a previous chapter. Tom is not in dictionary but 
+Susan is. This is returning a true false value. We can combine these keywords in our
+"if else blocks" to check if a key is in a dictionary and delete it if it is. 
+Let's clean up the console and then fix this indentation error. 
+Nothing happened when we executed this "if else block" because Susan 
+in dictionary evaluated to True. That meant that, the code "delete dictionary Susan" 
+was executed. Let's check the dictionary.
+You can see now that we only have one key value pair left in the dictionary.
+We executed this code again. [no audio] We see that "not in dictionary" was
+printed to the console. This is much better than an error and it uses some of 
+the concepts from a previous chapter.
+
+Looping List:
+In this video we're going to cover looping and the concept of building loops with 
+lists.
+
+To start, let's create the variable 'colors_list', which has the colors and 
+values blue, red, green, and purple. Looping allows us to walk through each of the 
+values in this list and apply a common operation to each value. This just not 
+initially change the values of the list, but it does give us access to each value. 
+Let's create a for-loop.
+
+A for-loop gets its name because it uses the keyword 'for' in Python. for color in 
+colors_list: This is how you first open a for-loop with the statement using the 
+keyword 'for', then you define a variable in the colors_list variable.
+We're going to print the color. Notice that this prints each value separately to
+the console. As I mentioned, the word 'color' in the previous statement is simply a
+placeholder that represents a value from the colors_list. We could use different
+names to represent this value. 
+
+Looping through list is a great way to execute common code on items in a list.
+In this statement, we're accessing each color in the colors_list and then 
+capitalizing that value. We now have the string returned with a capital letter. 
+This does not modify the original list.
+
+Let's clear the console and continue working with for-loops. Another common way
+to work through a for-loop is using the built-in range function. 
+The range function creates a range object which can hold the values between the
+given range. Let's loop through a range object to see what the values are.
+
+The range object is a slightly more advanced object in Python and is beyond the 
+scope of this course. However, you don't need to know what the range object is 
+doing internally to understand that it gives you the values that are in that range.
+You can see that the range uses zero-based indexing to print the values 0-4. 
+This is nice because lists also use zero-based indexing. Let's take a closer look at 
+this for-loop. You can see the inside of the range() built-in function. We are calling
+the len() built-in function which gives us the length of the colors_list.
+The length is 4. That means that we are passing 4 as an argument to the range() 
+function. So, moving along with the statement, we are saying for 
+in the range 0-4, print the colors_list. And then, we are accessing each value in
+the colors_list using bracket notation. It is saying, for 0, print(colors_list[0]).
+For 1, print(colors_list[1]) This is accessing each value dynamically in the 
+colors_list. One of the benefits to accessing each value in the colors_list using 
+the range() and len() function is that we can then reassign the values in the list 
+to something new. This is an unfortunate SyntaxError. 
+Let's clean up the console. With this for-loop statement, 
+we have reassigned each value in the colors_list to the value 'blue'. 
+This is one benefit to accessing the colors_list or any list with the range() 
+and len() function. If we simply just want the values, then we can access the 
+values straight off of the colors_list. Another way to modify the 
+values in the list without using the range() and len() function is to use the 
+enumerate() function. The indexes and corresponding values are returned in a tuple. 
+A tuple is a list but it is immutable, which means we cannot modify the values inside
+of it. However, we can index into a tuple the same way that we index into a list. 
+Let's rewrite this for-loop to access the indexes and print the values. This lets 
+us get the values and modify them at the same time. In this line, we're 
+accessing the second value in the tuple that is provided to us by the enumerate() 
+built-in function. This statement takes the first value in the tuple
+which will be the number or the index of the value. It then uses bracket notation 
+to access that value in the original colors_list variable and reassigns it to a new 
+value.
+
+So, we execute this code block. We see that the value for each item is printed to 
+the console. However, the values in the actual variable are changed as well. They are
+changed one line after we print them that's why you see them printed nicely and then
+changed all to the color blue. Using a for-loop is one way that we can walk through
+the values in a list and access each value individually to perform more actions with 
+code or to change the values and a list. Next, let's take a look at while-loops.
+
+While-loops, like for-loops, take their name by using the 'while' keyword.
+The 'while' keyword is used to tell Python, "While this statement evaluates to true, 
+continue executing the code in the following code block". Let's demonstrate this with 
+the colors_list variable. Before we execute this code, let's walk through it.
+
+The statement that is being evaluated is the length of colors list greater than zero.
+We know that the length of colors list is greater than zero. So, theoretically, if we
+didn't modify the list, once we executed this code, this code block would run forever.
+That is not what we want to do. First, we'll print the length of colors list: It's 
+because we'll be modifying it later. Then, we are going to print the value: It's that
+the front of the colors_list variable. Finally and most importantly, we are going to
+pop or remove the value at that zero position for the first index.
+
+That means that as this while-loop runs, we are constantly printing and removing the 
+values in the list. That will change the length of the colors_list to eventually, is
+zero.
+
+When the length of colors_list is zero, zero is not greater than zero, and the 
+initial statement will evaluate to false, that will end the while-loop.
+
+Let's execute this code. Now, let's walk through it. For the first loop of the loop, 
+four was printed the console because that was the length of colors_list.
+
+The value at the beginning of colors_list is blue.
+When we popped the first index off of the list, it printed the value to the console. 
+It then went back to the top and restarted the loop, checking the length of colors_list
+which was now three because we removed blue from the list. This went on and on until 
+there were no values left in the list. Let's prove this by printing colors_list to 
+the console. It's an empty list because we removed all the values 
+during the while-loop. Let's reinitialize the colors_list with the original values 
+and show what would happen if we didn't pop or modify the while-loop during its 
+execution. This is an infinite loop. I can't even catch up with it
+as it's executing.
+When an infinite loop is running, you can use control and see... Do you do a Keyboard
+Interrupt to end the infinite loop? The code block continuously executed because we 
+are not modifying the original list. This can make a wild up a little bit dangerous 
+whenever creating a while-loop, make sure that whatever statement you're evaluating 
+too will eventually evaluate to false. It doesn't have to use the pop method to
+remove an item from a list; It just has to evaluate to false when it's done modifying 
+the data that is supposed to modify, or executing the code that it needs to execute.
+
+
+Looping Dictionary:
+Now, that you know the basic concepts of using a For Loop with Lists, let's look at 
+a For Loop with Dictionaries. In the previous video, we talked about two important 
+methods that you can call on a dictionary. Those are the keys method and the values
+method. Let's create a dictionary and review these two methods.
+
+We have a favorite colors' dictionary with the names as the keys and the colors as 
+the values. The keys method returns a dictionary keys object. That 
+is a list of the keys in the dictionary. We can access the values
+using the values method. One more method I'd like to introduce is the Items Method.
+The items method returns the key value pairs as tuples like I showed you when we 
+used the enumerate function with for loops. Since the keys and values methods 
+return a list, we can iterate through that the same way that we would iterate 
+through a list. We are simply iterating through the values in the 
+list and then printing that value to the console. If we use the items method, recall 
+that we're getting a tuple which has the key and the value pair in each tuple.
+
+The tuples are just like this which means we can index into them by their position
+in the tuple. Taking a look at a tuple, let's say an example is 
+Tom and blue, something that would be returned to us from our dictionary. 
+We can unpack the values in the tuple by separating two variable names with commas. 
+I have assigned the first item in the tuple, Tom to the variable key and the second 
+item, blue to the variable value. I did this by using a comma to separate the 
+variables and then parsing them in iterable that had values for each of those indexes.
+This is more of an advanced topic in Python. Next, I will show you a better way of how
+to iterate through the keys and values in a dictionary in Python. In this statement 
+we are naming the item or each item in the dictionary, item this is returning a tuple
+to us And in this tuple we can access each value using the zero-based indexing.
+
+So, item zero is going to be Tom, for the first one and item one is going to be blue, 
+the value. Let's print each of these values for each item in the list to
+demonstrate this concept. There you go: Tom, blue, Susan, red, Karen, green.
+
+You can modify dictionaries in a for loop the same way you modify list except for 
+dictionaries have a little bit of an assignment difference. If you need a view on
+that, feel free to rewatch the dictionaries video. We have learned a lot in this 
+chapter. The best way to grow your Python skills is to practice. So, we will be 
+testing that knowledge in the exercise during the next video. See you there.

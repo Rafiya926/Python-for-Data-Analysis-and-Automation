@@ -1,0 +1,19 @@
+What is an Error?
+Errors are very common in programming and everyone experiences them.
+The important part about errors is being able to understand them and then have a
+solid process or structure for looking into them further. In Python, two types of 
+errors occur.
+Syntax errors pertain to the syntax of Python. An example of a syntax error is 
+forgetting to close the parentheses when you call the function or defined one. 
+This could also be the improper use of an operator. An Exception can occur 
+even if a statement is syntactically correct. A common exception that you may have 
+seen so far, a common example of an exception, is if a variable is not defined. 
+Python will throw a NameError exception telling you that it does not have a value 
+for the variable that you're trying to use. Errors have a more common name called a 
+Stack Trace. In a later video, we'll break down how to read and understand what a 
+stack trace is trying to tell you. Furthermore, in later videos, we'll talk about
+how to handle errors using keywords like 'try' and 'except', and the 'raise' keyword. 
+We will also look at some of the most common places to help you find and resolve your 
+errors in your Python scripts. You can use the Python documentation, or we can look at
+the millions of questions that are asked online on sites like 'stackoverflow'. 
+Handling errors as a part of programming. 

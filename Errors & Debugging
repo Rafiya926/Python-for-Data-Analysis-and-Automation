@@ -17,3 +17,32 @@ We will also look at some of the most common places to help you find and resolve
 errors in your Python scripts. You can use the Python documentation, or we can look at
 the millions of questions that are asked online on sites like 'stackoverflow'. 
 Handling errors as a part of programming. 
+
+
+Print Functions?
+how it can help us when debugging our programs and scripts in Python.
+Debugging is done when you're trying to find and fix bugs and code. 
+A ''bug'' is a slang term for errors or processes that produce unintended outcomes.
+
+In more advanced levels of Python there are better ways to debug programs and functions.
+This usually involves IDEs, Integrated Development Environments. IDEs have useful tools 
+for debugging. However, just starting out, we can use the print function to look into 
+the variable values of our files as we run them.
+
+This will help us solve some of the common errors and see what values, 
+variables have when they are executed in the file.
+
+Back in our repl, we have our small script that is giving us the TypeError. 
+The error is occurring on line 2, and involves the use of a variable, and we're 
+confused by this error and not sure what it means by string because we expect the 
+'num' to be a number. We can use the 'print' function to see what 'num' is when the 
+function executes. Here we see that the variable 'num' is '2', 
+it looks like an integer. However, if we are to print the type, we would see that it's 
+a string. This can be a common error in Python when trying to use math operators. 
+The print function can give us a look into variables as we process them.
+
+Later we could comment out the print function or delete it entirely. 
+It's okay to find yourself using the print function a lot when you're just 
+starting out in Python. Further on in this course we'll talk about other
+debugging techniques and how we can use applications and other programs to make 
+this process easier. 
